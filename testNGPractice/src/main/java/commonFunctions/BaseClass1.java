@@ -125,6 +125,7 @@ public class BaseClass1 {
 		driver.navigate().refresh();
 
 	}
+	// To Take Screenshot
 	public Object screenShot(String file) throws IOException {
 
 		TakesScreenshot screenshot= (TakesScreenshot)driver;
